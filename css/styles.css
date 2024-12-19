@@ -1,0 +1,92 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #00bcd4;
+    color: white;
+}
+.container {
+    margin: 0 120px;
+}
+
+/* Header Section Start Here */
+#header .navbar-content .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.list ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    font-size:14px;
+}
+.list ul li #active {
+    text-decoration: underline;
+}
+.navbar .list ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+/* Header Section Ends Here */
+
+/* Slider Section Start Here */
+.slider-main-heading h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: 950;
+    margin-bottom: 20px;
+}
+.mail-flow-logo h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign-in{
+    text-transform: uppercase;
+    font-size:14px;
+    height: 45px;
+    width: 100px;
+    border: none;
+    background-color: #00bcd4;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.sign-up{
+    text-transform: uppercase;
+    font-size:14px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    height: 45px;
+    width: 100px;
+}
+.free-sign-up{
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 45px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(228, 53, 82);   
+}
+.slider-paragraph p{
+    font-size: 17px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 360px;
+    line-height: 25px;
+}
+.slider-button button i{
+    margin: 0 0 0 15px;
+}
+/* Slider Section ends Here */
